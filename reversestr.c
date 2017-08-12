@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-int main() {
+void main() {
    char a[] = "akshatha";
    int len = strlen(a);
    printf("%s\n", a);
@@ -14,5 +14,5 @@ int main() {
     }
     rev_str[len] = '\0';
     printf("%s", rev_str);
-    return 0;
+    return ;
 }
